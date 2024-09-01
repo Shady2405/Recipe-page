@@ -17,6 +17,7 @@ body {
     width: 32%;
     padding: 1.5rem;
     color:hsl(30, 10%, 34%);
+    overfiow: hidden;
 }
 .img  {
     display: flex;
