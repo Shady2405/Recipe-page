@@ -99,6 +99,7 @@ th{
         width: 100%;
         padding-left: 50px;
         padding-top: 0;
+        overflow: hidden;
     }
     body{
         padding: 0;
