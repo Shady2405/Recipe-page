@@ -9,6 +9,7 @@ body {
     flex-direction: column;
     align-items: center;
     font-family: "Outfit", sans-serif;
+    width: 100%;
 }
 .container{
     background-color: hsl(0, 0%, 100%);
@@ -17,7 +18,6 @@ body {
     width: 32%;
     padding: 1.5rem;
     color:hsl(30, 10%, 34%);
-    overfiow: hidden;
 }
 .img  {
     display: flex;
