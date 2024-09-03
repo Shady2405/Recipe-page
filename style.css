@@ -1,23 +1,25 @@
-body {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    scroll-behavior: smooth;
+    font-family: "Figtree", sans-serif;
+}
+body {
+    padding: 1rem;
     background-color:hsl(30, 18%, 87%);
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     font-family: "Outfit", sans-serif;
-    width: 100%;
+    min-height: 100vh
 }
 .container{
     background-color: hsl(0, 0%, 100%);
     height: auto;
     border-radius: 15px;
     width: 32%;
-    padding: 1.5rem;
-    margin-top:  1rem; 
+    padding: 1.5rem; 
     color:hsl(30, 10%, 34%);
 
 }
@@ -99,15 +101,20 @@ th{
 @media screen and (max-width:660px) {
     .container{
         width: 100%;
-        padding-left: 50px;
-        padding-top: 0;
-        margin-top: 0;
-    }
+        border-radius: 0 ;
+        overflow: hidden;
+}
     body{
         padding: 0;
-    }
+}
     .img{
-        margin: 0 -25px;
-        border-radius: 0;
-    }
+        display: block ;
+        display: block;
+        margin: -25px -30px 0px -30px
+
+}
+    .img img{
+        border-radius: 0 ;
+        -webkit-border-radius: 0 ;
+}
 }
